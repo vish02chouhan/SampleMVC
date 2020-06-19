@@ -1,0 +1,321 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\EmployeeManagement3\\EmployeeManagement3.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj",
+        "projectName": "Domain.Entities",
+        "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\singh_vs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\singh_vs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://powershell.myget.org/F/powershell-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\EmployeeManagement3\\EmployeeManagement3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\EmployeeManagement3\\EmployeeManagement3.csproj",
+        "projectName": "EmployeeManagement3",
+        "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\EmployeeManagement3\\EmployeeManagement3.csproj",
+        "packagesPath": "C:\\Users\\singh_vs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\EmployeeManagement3\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\singh_vs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://powershell.myget.org/F/powershell-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj"
+              },
+              "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.General\\Infrastructure.General.csproj": {
+                "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.General\\Infrastructure.General.csproj"
+              },
+              "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.Security\\Infrastructure.Security.csproj": {
+                "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.Security\\Infrastructure.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.General\\Infrastructure.General.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.General\\Infrastructure.General.csproj",
+        "projectName": "Infrastructure.General",
+        "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.General\\Infrastructure.General.csproj",
+        "packagesPath": "C:\\Users\\singh_vs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.General\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\singh_vs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://powershell.myget.org/F/powershell-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.Security\\Infrastructure.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.Security\\Infrastructure.Security.csproj",
+        "projectName": "Infrastructure.Security",
+        "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.Security\\Infrastructure.Security.csproj",
+        "packagesPath": "C:\\Users\\singh_vs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Infrastructure.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\singh_vs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://powershell.myget.org/F/powershell-core/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\singh_vs\\source\\repos\\Kudvenkat3-master\\Kudvenkat3-master\\Domain.Entities\\Domain.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
