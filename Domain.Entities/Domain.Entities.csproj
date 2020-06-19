@@ -5,6 +5,37 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp2.2\.NETCoreApp,Version=v2.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.2\Domain.Entities.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Domain.Entities.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp2.2\Domain.Entities.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\Domain.Entities.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Domain.Entities.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp2.2\Domain.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.2\Domain.Entities.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.2\Domain.Entities.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.2\Domain.Entities.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp2.2\Domain.Entities.dll" />
+    <None Include="obj\Debug\netcoreapp2.2\Domain.Entities.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\Domain.Entities.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Domain.Entities.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Domain.Entities.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Domain.Entities.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\Domain.Entities.pdb" />
+    <None Include="obj\Domain.Entities.csproj.nuget.g.props" />
+    <None Include="obj\Domain.Entities.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.2" />
   </ItemGroup>
