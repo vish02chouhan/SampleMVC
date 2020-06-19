@@ -1,5 +1,7 @@
-﻿using EmployeeManagement3.Models;
+﻿using Domain.Entities;
+using EmployeeManagement3.Models;
 using EmployeeManagement3.ViewModels;
+using Infrastructure.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

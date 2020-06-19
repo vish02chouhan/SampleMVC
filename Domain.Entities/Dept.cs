@@ -1,4 +1,4 @@
-﻿namespace EmployeeManagement3.Models
+﻿namespace Domain.Entities
 {
     public enum Dept
     {

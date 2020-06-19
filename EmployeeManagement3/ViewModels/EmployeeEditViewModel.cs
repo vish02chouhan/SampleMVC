@@ -1,4 +1,5 @@
-﻿using EmployeeManagement3.Models;
+﻿using Domain.Entities;
+using EmployeeManagement3.Models;
 
 using System.ComponentModel.DataAnnotations;
 

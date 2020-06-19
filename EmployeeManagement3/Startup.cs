@@ -1,5 +1,5 @@
 ﻿using EmployeeManagement3.Models;
-
+using Infrastructure.Security;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;

@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using Domain.Entities;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement3.Models
+namespace Infrastructure.Security
 {
     public class SQLEmployeeRepository : IEmployeeRepository
     {

@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using Domain.Entities;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement3.Models
+namespace Infrastructure.Security
 {
     public interface IEmployeeRepository
     {

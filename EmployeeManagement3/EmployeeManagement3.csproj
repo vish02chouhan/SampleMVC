@@ -25,4 +25,11 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Entities\Domain.Entities.csproj" />
+    <ProjectReference Include="..\Infrastructure.General\Infrastructure.General.csproj" />
+    <ProjectReference Include="..\Infrastructure.Security\Infrastructure.Security.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,5 @@
-﻿using EmployeeManagement3.Models;
+﻿using Domain.Entities;
+using EmployeeManagement3.Models;
 
 namespace EmployeeManagement3.ViewModels
 {
